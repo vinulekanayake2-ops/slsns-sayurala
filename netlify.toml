@@ -2,7 +2,7 @@
   # Remove the Windows-uploaded node_modules and .next folder to force a clean Linux build
   # Then install dependencies, generate Prisma client, and build Next.js
   command = "rm -rf node_modules .next && npm install && npx prisma generate && npm run build"
-  publish = ".next"
+
 
 [build.environment]
   NODE_VERSION = "20"
