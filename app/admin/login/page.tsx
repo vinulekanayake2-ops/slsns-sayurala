@@ -130,9 +130,9 @@ export default function AdminLogin() {
                                 className="text-red-400 text-xs text-center font-medium bg-red-900/10 py-2 rounded border border-red-900/30 flex items-center justify-center gap-2"
                             >
                                 <ShieldAlert className="w-3 h-3" />
-                                <error>
+                                <span>
                                     {error}
-                                </error>
+                                </span>
                             </motion.div>
                         )}
 
