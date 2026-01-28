@@ -1,0 +1,96 @@
+{
+  "node": {
+    "7c831059db3053eb84c64eff502e2027c4f80408f7": {
+      "workers": {
+        "app/quiz/[moduleId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[moduleId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitQuizResult",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/quiz/[moduleId]/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "submitQuizResult"
+    },
+    "78186fbaf50b5d1c08513ef68c5eb7bed62526ec53": {
+      "workers": {
+        "app/quiz/[moduleId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[moduleId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateSessionActivity",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/quiz/[moduleId]/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "updateSessionActivity"
+    },
+    "005bcc49a176be9b54cab20fcc4c25fe580da9bcac": {
+      "workers": {
+        "app/admin/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAdminDashboardData",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "getAdminDashboardData"
+    },
+    "60b5e11864e1c2698f0b50d17a82ad5218c790b369": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "loginUser",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "loginUser"
+    },
+    "00abadca8d4a37c50d928261bd453c4de769dffc57": {
+      "workers": {
+        "app/modules/page": {
+          "moduleId": "[project]/.next-internal/server/app/modules/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutUser",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/modules/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "logoutUser"
+    },
+    "00b43f61ee8dbf88d12957ea3a3121bbfe4f75eb22": {
+      "workers": {
+        "app/admin/login/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "loginAdmin",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/login/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "loginAdmin"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "ZTTl8qq1ZW0ot27dP+FBBWnc7/agV804+UgRHKxA9/o="
+}

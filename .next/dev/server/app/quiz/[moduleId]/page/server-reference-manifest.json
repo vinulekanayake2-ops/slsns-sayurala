@@ -1,0 +1,35 @@
+{
+  "node": {
+    "7c831059db3053eb84c64eff502e2027c4f80408f7": {
+      "workers": {
+        "app/quiz/[moduleId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[moduleId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitQuizResult",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/quiz/[moduleId]/page": "action-browser"
+      },
+      "exportedName": "submitQuizResult",
+      "filename": "app/actions.ts"
+    },
+    "78186fbaf50b5d1c08513ef68c5eb7bed62526ec53": {
+      "workers": {
+        "app/quiz/[moduleId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[moduleId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateSessionActivity",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/quiz/[moduleId]/page": "action-browser"
+      },
+      "exportedName": "updateSessionActivity",
+      "filename": "app/actions.ts"
+    }
+  },
+  "edge": {}
+}

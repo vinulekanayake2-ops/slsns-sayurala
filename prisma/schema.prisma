@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id           String        @id @default(cuid())
+  officialId   String        @unique
+  name         String
+  createdAt    DateTime      @default(now())
+  
+  attempts     QuizAttempt[]
+  activeSession ActiveSession?
+}
+
+model Module {
+  id          String     @id @default(cuid())
+  slug        String     @unique
+  name        String
+  questions   Question[]
+}
+
+model Question {
+  id            String   @id @default(cuid())
+  text          String
+  options       String
+  correctIndex  Int
+  moduleId      String
+  module        Module   @relation(fields: [moduleId], references: [id])
+}
+
+model QuizAttempt {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id])
+  moduleId    String
+  score       Int?
+  answers     String
+  isCompleted Boolean?
+  startedAt   DateTime  @default(now())
+  completedAt DateTime?
+}
+
+model ActiveSession {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  user            User     @relation(fields: [userId], references: [id])
+  lastActive      DateTime @default(now())
+  currentModuleId String?
+  currentQuestionIndex Int @default(0)
+  totalQuestions       Int @default(0)
+}
