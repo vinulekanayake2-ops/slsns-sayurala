@@ -1,0 +1,502 @@
+[
+    {
+        "text": "Which of the following is NOT a type of service correspondence used in SLN?",
+        "options": [
+            "Command Letters",
+            "Routing Letters",
+            "Casual Letters",
+            "Demi-Official Letters"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which characteristic of service writing ensures correctness of information?",
+        "options": [
+            "Brevity",
+            "Accuracy",
+            "Logic",
+            "Relevance"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which attachment is used to provide additional explanatory material to a main document?",
+        "options": [
+            "Enclosure",
+            "Appendix",
+            "Annex",
+            "Minute sheet"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which NAV form is used to draw victuals from AVCO?",
+        "options": [
+            "NAV 251",
+            "NAV 308",
+            "NAV 309",
+            "NAV 254"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which NAV form is used to raise a demand for Naval Stores items from ASO?",
+        "options": [
+            "NAV 254",
+            "NAV 251",
+            "NAV 253",
+            "NAV 190"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which of the following is NOT a required particular on NAV 251?",
+        "options": [
+            "Register number",
+            "Vote",
+            "Casualty report",
+            "Reason for demand"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The 1st copy of NAV 251 is forwarded to which branch?",
+        "options": [
+            "Naval Stores",
+            "Storing Yard",
+            "Ledger Branch",
+            "Finance Branch"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Which of the following is a type of kit issue?",
+        "options": [
+            "Emergency",
+            "Initial",
+            "Priority",
+            "Temporary"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which document is prepared for annual survey and write-off of stores?",
+        "options": [
+            "NAV 190",
+            "NAV 253",
+            "G 47",
+            "NAV 308"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Who is responsible for maintaining proper stock and cash imprest?",
+        "options": [
+            "Executive Officer",
+            "Gunnery Officer",
+            "Supply Officer",
+            "Navigation Officer"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What does the catch word “IAW” stand for?",
+        "options": [
+            "In Any Way",
+            "Invite Attention Weekly",
+            "In Accordance With",
+            "Immediate Action Wanted"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is a Ready Reckoner?",
+        "options": [
+            "Daily victualling expenditure report",
+            "Weekly ration statement",
+            "Main ledger of victualling",
+            "Craft issue register"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Which NAV form is used to issue victuals to the main galley as per NHQ menu?",
+        "options": [
+            "NAV 254",
+            "NAV 308",
+            "NAV 309",
+            "NAV 257"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which security classification is the highest in SLN service writing?",
+        "options": [
+            "Confidential",
+            "Restricted",
+            "Secret",
+            "Top Secret"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Which of the following NAV forms is used as the Main Ledger?",
+        "options": [
+            "NAV 253",
+            "NAV 254",
+            "NAV 255",
+            "NAV 256"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Which of the following books is maintained in the ship’s victualling store?",
+        "options": [
+            "Repair note book",
+            "Menu Book",
+            "Casualty Register",
+            "Signal Log"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which NAV form is used for Repair Notes?",
+        "options": [
+            "NAV 256",
+            "NAV 190",
+            "NAV 257",
+            "NAV 254"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which of the following is the correct meaning of the catch word “AOL”?",
+        "options": [
+            "Absent on Leave",
+            "Away on Leave",
+            "Allotted on Leave",
+            "Allowed on Leave"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which attribute best reflects a staff officer’s moral character?",
+        "options": [
+            "Vision",
+            "Working ability",
+            "Knowledge",
+            "Loyalty and Integrity"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Which NAV form is used to record Stock Taking?",
+        "options": [
+            "NAV 255",
+            "NAV 257",
+            "NAV 256",
+            "NAV 253"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the minimum stock level?",
+        "options": [
+            "Highest quantity of stock maintained",
+            "Lowest stage of stock in stores",
+            "Ordering point of stock",
+            "Excess stock level"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which of the following best describes Lead Time?",
+        "options": [
+            "Maximum storage duration",
+            "Time taken to issue items to department",
+            "Time between placing order and receiving goods",
+            "Time taken to prepare ledger"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which document is used to demand stores from Naval Stores by departments?",
+        "options": [
+            "NAV 253",
+            "NAV 254",
+            "NAV 255",
+            "NAV 256"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which SLNO category deals with Finance?",
+        "options": [
+            "SLNO 05",
+            "SLNO 06",
+            "SLNO 07",
+            "SLNO 08"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which of the following is a security classification in SLN?",
+        "options": [
+            "General",
+            "Official",
+            "Confidential",
+            "Limited"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the specific name for government order?",
+        "options": [
+            "NAV 254",
+            "NAV 255",
+            "G 231",
+            "NAV 5"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is Chapter 3.4 of Procurement Guidelines.",
+        "options": [
+            "Emergency procurement",
+            "Shopping",
+            "Technical Evaluation Committee",
+            "Tender opening committee"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which one of the following is not applicable for a liability account?",
+        "options": [
+            "Bank overdraft",
+            "Investment",
+            "Loan",
+            "Accrued Expenses"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Select from the following the correct equation",
+        "options": [
+            "Assets = Expenses + Capital",
+            "Expenses = Assets - Capital",
+            "Capital = Assets + Liabilities",
+            "Assets = Capital + Liabilities"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Which financial statement displays the revenues and expenses of a company for a period of time?",
+        "options": [
+            "Income Statement",
+            "Balance Sheet",
+            "Cash flow statement",
+            "Statement of Stockholder's Equity"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Code number of Acting pay is,",
+        "options": [
+            "651",
+            "652",
+            "551",
+            "552"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Servant allowances code number is,",
+        "options": [
+            "508",
+            "507",
+            "518",
+            "517"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "What is the messing system that dose not include general messes?",
+        "options": [
+            "Centralized messing",
+            "Broadside messing",
+            "Modified messing",
+            "Action messing"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Underline the ration money when Officers at sea",
+        "options": [
+            "1250.00",
+            "1375.00",
+            "1350.00",
+            "1275.00"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Who is the head of food committee?",
+        "options": [
+            "Commanding Officer",
+            "Executive Officer",
+            "Regulating Officer",
+            "Logistics Officer"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Who is the Fresh item supplier when our ship at the Hambantota?",
+        "options": [
+            "Rodesha enterprises",
+            "Sea lobster enterprises",
+            "HGPM",
+            "Wickramarathne (PVT) Ltd"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Where is the CKS is located?",
+        "options": [
+            "SLNS Gamunu",
+            "SLNS Rangalla",
+            "SLNS Mahasen",
+            "ND Parakrama"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Underline the ration money when sailors at sea",
+        "options": [
+            "1265.00",
+            "1150.00",
+            "1200.00",
+            "1100.00"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Where is the Area kit stores locate in North Western Naval Area ?",
+        "options": [
+            "SLNS Pandukabaya",
+            "SLNS Thambapanni",
+            "SLNS Thammanna",
+            "SLNS Shilpa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Underline the incorrect term of Store management module in ILMS system?",
+        "options": [
+            "NAD management module",
+            "Victualling management module",
+            "Health management module",
+            "Stationary management module"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Underline the related term for Procurement management module",
+        "options": [
+            "SPDC/NSPDC management module",
+            "Clothing management module",
+            "Repair management module",
+            "Budget & Finance Management System"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Underline the value of Diving Allowance",
+        "options": [
+            "Rs. 75.00",
+            "Rs. 70.00",
+            "Rs. 65.00",
+            "Rs. 85.00"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "‘NAV 327 is prepared by each ship, craft and establishment and forwarded to Pay department before………… of following month.’ Underline suitable date for this statement",
+        "options": [
+            "05th of following month",
+            "10th of following month",
+            "03rd of following month",
+            "08th of following month"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "‘NAV 304 is prepared by each ship, craft and establishment and forwarded to Director Naval (Victualling & Clothing) along with monthly victualling account before …………….. of following month.’ Underline suitable date for this statement",
+        "options": [
+            "05th of following month",
+            "10th of following month",
+            "03rd of following month",
+            "08th of following month"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Temperature should be maintained in cold room?",
+        "options": [
+            "Between 15 degree F to 18 degree F.",
+            "Between 18 degree F to 21 degree F.",
+            "Between 12 degree F to 15 degree F.",
+            "Between 08 degree F to 12 degree F."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "What is the SLNO 01?",
+        "options": [
+            "Logistics",
+            "Financial",
+            "Training",
+            "Operational"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "What allowance is paid for all married officers?",
+        "options": [
+            "Batman allowance",
+            "Risk allowances",
+            "Disturbance allowances",
+            "Entertainment allowances"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "How much uniform allowances for Commander above?",
+        "options": [
+            "Rs. 600.00",
+            "Rs. 375.00",
+            "Rs. 525.00",
+            "Rs. 675.00"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Underline the Oil class fish",
+        "options": [
+            "Paraw",
+            "Koduwa",
+            "Mackerel",
+            "Kelawalla"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Underline the mocktail type beverage",
+        "options": [
+            "Pina colada",
+            "Mojito",
+            "Aperol spritz",
+            "Creamsicle Punch"
+        ],
+        "correctIndex": 3
+    }
+]

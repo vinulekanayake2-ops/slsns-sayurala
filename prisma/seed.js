@@ -110,7 +110,37 @@ async function main() {
         });
     }
 
-    console.log({ admin, navigationModule, marineModule, communicationModule })
+    // Seed Logistics
+    const logisticsQuestions = require('./logistics_questions.json');
+
+    // Clean up existing questions for Logistics module
+    const existingLogisticsModule = await prisma.module.findUnique({ where: { slug: 'logistics' } });
+    if (existingLogisticsModule) {
+        await prisma.question.deleteMany({ where: { moduleId: existingLogisticsModule.id } });
+    }
+
+    const logisticsModule = await prisma.module.upsert({
+        where: { slug: 'logistics' },
+        update: {},
+        create: {
+            name: 'Logistics',
+            slug: 'logistics'
+        }
+    });
+
+    // Create questions for Logistics
+    for (const q of logisticsQuestions) {
+        await prisma.question.create({
+            data: {
+                text: q.text,
+                options: JSON.stringify(q.options),
+                correctIndex: q.correctIndex,
+                moduleId: logisticsModule.id
+            }
+        });
+    }
+
+    console.log({ admin, navigationModule, marineModule, communicationModule, logisticsModule })
 
     console.log({ admin, navigationModule })
     console.log('Seeding completed.')
