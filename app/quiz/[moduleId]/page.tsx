@@ -1,11 +1,29 @@
 import QuizInterface from "@/components/QuizInterface";
 import { generateQuestions } from "@/lib/questions";
+import { prisma } from "@/lib/db";
 
-// This is a Server Component
 export default async function QuizPage({ params }: { params: Promise<{ moduleId: string }> }) {
     const { moduleId } = await params;
-    // Generate and shuffle questions for randomness per session
-    const questions = generateQuestions(moduleId).sort(() => Math.random() - 0.5);
+
+    // Try to fetch from DB first
+    const moduleData = await prisma.module.findUnique({
+        where: { slug: moduleId },
+        include: { questions: true }
+    });
+
+    let questions;
+
+    if (moduleData && moduleData.questions.length > 0) {
+        questions = moduleData.questions.map(q => ({
+            id: q.id,
+            text: q.text,
+            options: JSON.parse(q.options), // Options are stored as JSON string in DB
+            correctIndex: q.correctIndex
+        })).sort(() => Math.random() - 0.5);
+    } else {
+        // Fallback to mock generation
+        questions = generateQuestions(moduleId).sort(() => Math.random() - 0.5);
+    }
 
     return (
         <main className="h-screen w-screen bg-navy-900 text-steel-100 relative overflow-hidden flex flex-col">

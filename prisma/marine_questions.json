@@ -1,0 +1,502 @@
+[
+    {
+        "text": "The main function of a ship’s main engine is to:",
+        "options": [
+            "Generate electricity",
+            "Drive the propeller",
+            "Pump ballast water",
+            "Compress air"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which cycle is commonly used in marine diesel engines?",
+        "options": [
+            "Otto cycle",
+            "Rankine cycle",
+            "Diesel cycle",
+            "Brayton cycle"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Fuel injection in a diesel engine occurs at:",
+        "options": [
+            "Beginning of suction stroke",
+            "End of compression stroke",
+            "Beginning of power stroke",
+            "End of exhaust stroke"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which fuel is commonly used in large marine diesel engines?",
+        "options": [
+            "Petrol",
+            "LPG",
+            "Heavy Fuel Oil",
+            "Kerosene"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The function of a turbocharger is to:",
+        "options": [
+            "Cool the engine",
+            "Increase fuel supply",
+            "Increase air supply",
+            "Reduce exhaust temperature"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which component removes heat from engine lubricating oil?",
+        "options": [
+            "Oil pump",
+            "Oil filter",
+            "Oil cooler",
+            "Sump"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The purpose of scavenge air in a two-stroke engine is to:",
+        "options": [
+            "Cool the piston",
+            "Remove exhaust gases",
+            "Lubricate cylinder",
+            "Reduce vibration"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which metal is commonly used for piston rings?",
+        "options": [
+            "Copper",
+            "Aluminum",
+            "Cast iron",
+            "Brass"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Cylinder liner wear is mainly caused by:",
+        "options": [
+            "High temperature",
+            "Poor lubrication",
+            "Over-speeding",
+            "Low pressure"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The exhaust valve opens at the:",
+        "options": [
+            "Start of compression stroke",
+            "End of power stroke",
+            "Start of suction stroke",
+            "End of suction stroke"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the main purpose of a crankshaft?",
+        "options": [
+            "Supply fuel",
+            "Convert reciprocating motion to rotary motion",
+            "Support piston",
+            "Cool engine"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which pump is generally used for fuel oil transfer?",
+        "options": [
+            "Centrifugal pump",
+            "Gear pump",
+            "Axial pump",
+            "Jet pump"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The function of a governor is to:",
+        "options": [
+            "Control speed of engine",
+            "Control temperature",
+            "Control pressure",
+            "Control lubrication"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Which bearing supports the crankshaft?",
+        "options": [
+            "Thrust bearing",
+            "Main bearing",
+            "Crosshead bearing",
+            "Piston bearing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The main function of a thrust bearing is to:",
+        "options": [
+            "Support weight of crankshaft",
+            "Absorb axial thrust",
+            "Reduce vibration",
+            "Increase speed"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which cooling system is widely used in marine engines?",
+        "options": [
+            "Air cooling",
+            "Fresh water cooling",
+            "Oil cooling",
+            "Steam cooling"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Sea water is mainly used in:",
+        "options": [
+            "Jacket cooling",
+            "Piston cooling",
+            "Central cooling system",
+            "Lubricating system"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Lubricating oil viscosity is affected by:",
+        "options": [
+            "Pressure only",
+            "Temperature only",
+            "Speed only",
+            "Temperature and pressure"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Which device separates water from fuel oil?",
+        "options": [
+            "Filter",
+            "Strainer",
+            "Purifier",
+            "Pump"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Sludge in purifier is discharged by:",
+        "options": [
+            "Gravity",
+            "Manual cleaning",
+            "Centrifugal force",
+            "Pressure pump"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which type of fire extinguisher is suitable for oil fires?",
+        "options": [
+            "Water",
+            "Foam",
+            "Sand",
+            "Steam"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Flash point of fuel oil indicates:",
+        "options": [
+            "Ignition temperature",
+            "Fire temperature",
+            "Lowest temperature for vapor ignition",
+            "Burning rate"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the function of an economizer?",
+        "options": [
+            "Increase fuel consumption",
+            "Heat feed water using exhaust gas",
+            "Cool exhaust gas",
+            "Store steam"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Boiler mountings include:",
+        "options": [
+            "Feed pump",
+            "Safety valve",
+            "Air compressor",
+            "Fuel injector"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The purpose of a safety valve is to:",
+        "options": [
+            "Increase pressure",
+            "Reduce pressure",
+            "Prevent over-pressure",
+            "Control water level"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which boiler is commonly used onboard ships?",
+        "options": [
+            "Fire tube boiler",
+            "Water tube boiler",
+            "Electric boiler",
+            "Nuclear boiler"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The unit of viscosity is:",
+        "options": [
+            "Pascal",
+            "Poise",
+            "Joule",
+            "Newton"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the main function of an air compressor onboard?",
+        "options": [
+            "Starting main engine",
+            "Cooling engine",
+            "Pumping fuel",
+            "Lubrication"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Which valve prevents backflow?",
+        "options": [
+            "Globe valve",
+            "Gate valve",
+            "Non-return valve",
+            "Butterfly valve"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is cavitation in pumps?",
+        "options": [
+            "Increase in pressure",
+            "Formation of vapor bubbles",
+            "Excessive flow",
+            "Mechanical damage"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which pump is used for bilge water?",
+        "options": [
+            "Gear pump",
+            "Centrifugal pump",
+            "Piston pump",
+            "Screw pump"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What does BHP stand for?",
+        "options": [
+            "Brake Horse Power",
+            "Basic Horse Power",
+            "Boiler Horse Power",
+            "Bulk Horse Power"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Indicator diagram shows:",
+        "options": [
+            "Speed vs time",
+            "Pressure vs volume",
+            "Temperature vs pressure",
+            "Power vs speed"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which instrument measures engine speed?",
+        "options": [
+            "Manometer",
+            "Tachometer",
+            "Thermometer",
+            "Barometer"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The purpose of a flywheel is to:",
+        "options": [
+            "Increase speed",
+            "Reduce vibration",
+            "Store energy",
+            "Cool engine"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which oil is used for cylinder lubrication?",
+        "options": [
+            "System oil",
+            "Hydraulic oil",
+            "Cylinder oil",
+            "Turbine oil"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Main engine alarms include:",
+        "options": [
+            "Low lube oil pressure",
+            "High cooling water temperature",
+            "Overspeed",
+            "All of the above"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Which material is used for propeller?",
+        "options": [
+            "Steel",
+            "Cast iron",
+            "Bronze",
+            "Aluminum"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Stern tube lubrication is usually done by:",
+        "options": [
+            "Fresh water",
+            "Sea water",
+            "Lubricating oil",
+            "Grease only"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The purpose of a turning gear is to:",
+        "options": [
+            "Start engine",
+            "Stop engine",
+            "Rotate engine slowly",
+            "Increase speed"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the function of a purifier heater?",
+        "options": [
+            "Cool fuel",
+            "Reduce viscosity",
+            "Increase pressure",
+            "Remove sludge"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which system supplies air to engine room?",
+        "options": [
+            "Scavenge air system",
+            "Ventilation system",
+            "Exhaust system",
+            "Cooling system"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which pressure is indicated by mean effective pressure?",
+        "options": [
+            "Average cylinder pressure",
+            "Maximum pressure",
+            "Atmospheric pressure",
+            "Exhaust pressure"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "What is the function of a relief valve?",
+        "options": [
+            "Maintain flow",
+            "Release excess pressure",
+            "Stop leakage",
+            "Control temperature"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which gas is mainly present in exhaust gases?",
+        "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which system prevents oil pollution at sea?",
+        "options": [
+            "Bilge system",
+            "OWS (Oily Water Separator)",
+            "Ballast system",
+            "Cooling system"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Maximum oil content allowed in discharge is:",
+        "options": [
+            "50 ppm",
+            "25 ppm",
+            "15 ppm",
+            "5 ppm"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which part connects piston to crankshaft?",
+        "options": [
+            "Crosshead",
+            "Connecting rod",
+            "Piston rod",
+            "Shaft"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What does TDC stand for?",
+        "options": [
+            "Total Dead Center",
+            "Top Dead Center",
+            "Turbo Drive Control",
+            "Thermal Dead Center"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which survey ensures ship machinery safety?",
+        "options": [
+            "Annual survey",
+            "Special survey",
+            "Intermediate survey",
+            "All of the above"
+        ],
+        "correctIndex": 3
+    }
+]
