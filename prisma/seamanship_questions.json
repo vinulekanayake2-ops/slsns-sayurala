@@ -1,0 +1,502 @@
+[
+    {
+        "text": "What is the type of Ship’s Anchor?",
+        "options": [
+            "AC 14",
+            "AC 13",
+            "AC 15",
+            "Admiralty Standard Stockless"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "How many types of man-made ropes?",
+        "options": [
+            "03",
+            "04",
+            "05",
+            "06"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "How many types of cordage rope?",
+        "options": [
+            "04",
+            "02",
+            "06",
+            "07"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the length of Hand Lead and Line?",
+        "options": [
+            "40m",
+            "30m",
+            "20m",
+            "50m"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the type of thimble onboard?",
+        "options": [
+            "Heart shape",
+            "Heart shape opened",
+            "Heart shape welded",
+            "None of above"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "How many types of ropes?",
+        "options": [
+            "02",
+            "03",
+            "04",
+            "05"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "This is not a type of whipping",
+        "options": [
+            "west country",
+            "American",
+            "Sail makers",
+            "African"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Choose weight of anchor onboard?",
+        "options": [
+            "1440KG",
+            "1450KG",
+            "1500KG",
+            "1540KG"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Choose type of ladders onboard?",
+        "options": [
+            "Accommodation ladder",
+            "Jumping ladder",
+            "Mediterranean ladder",
+            "All of above"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "How many types of jumping ladder?",
+        "options": [
+            "01",
+            "02",
+            "03",
+            "04"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the type of fenders onboard?",
+        "options": [
+            "Fixed",
+            "Portable",
+            "Port",
+            "All of above"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "How many splices?",
+        "options": [
+            "02",
+            "04",
+            "06",
+            "05"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "20m mark of hand led and line ?",
+        "options": [
+            "Two knots",
+            "Peace of clothe",
+            "Rubber ocher",
+            "None of above"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Length of distance line?",
+        "options": [
+            "100m",
+            "101m",
+            "102m",
+            "105m"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Length of penter line?",
+        "options": [
+            "30m",
+            "20m",
+            "25m",
+            "40m"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "HRU means?",
+        "options": [
+            "Hydrostatic Release unit",
+            "Hydraulic Release unit",
+            "Hydric Release unit",
+            "None of above"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "The distance from the waterline to the bottom of the keel is known as:",
+        "options": [
+            "Freeboard",
+            "Depth",
+            "Draught",
+            "Trim"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The forward-most part of a ship is called:",
+        "options": [
+            "Stern",
+            "Bow",
+            "Forecastle",
+            "Stem"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The vertical distance between the main deck and waterline is:",
+        "options": [
+            "Freeboard",
+            "Draught",
+            "Depth",
+            "Air draft"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "One shackle of anchor cable is equal to:",
+        "options": [
+            "15 meters",
+            "20 meters",
+            "25 meters",
+            "27.5 meters"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "The term “Avast” means:",
+        "options": [
+            "Go ahead",
+            "Stop",
+            "Turn right",
+            "Turn left"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The command “Veer away” refers to:",
+        "options": [
+            "Hauling rope",
+            "Paying out rope",
+            "Securing rope",
+            "Cutting rope"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which knot is used to secure a rope to a spar temporarily?",
+        "options": [
+            "Bowline",
+            "Reef knot",
+            "Clove hitch",
+            "Sheet bend"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The weight of anchor cable paid out is measured in:",
+        "options": [
+            "Meters",
+            "Shackles",
+            "Fathoms",
+            "Links"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which rope is most elastic?",
+        "options": [
+            "Manila",
+            "Sisal",
+            "Nylon",
+            "Polyester"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "A vessel secured alongside a jetty is said to be:",
+        "options": [
+            "Anchored",
+            "Moored",
+            "Berthed",
+            "Docked"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "A “foul anchor” means:",
+        "options": [
+            "Anchor not holding",
+            "Cable twisted around anchor",
+            "Anchor broken",
+            "Anchor lost"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The strongest natural fiber rope is:",
+        "options": [
+            "Cotton",
+            "Hemp",
+            "Manila",
+            "Coir"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "A spring line is mainly used to:",
+        "options": [
+            "Prevent drifting away",
+            "Control fore and aft movement",
+            "Secure anchor",
+            "Lift boats"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "A knot used to temporarily join two ropes of unequal size is:",
+        "options": [
+            "Reef knot",
+            "Sheet bend",
+            "Bowline",
+            "Clove hitch"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which splice prevents the end of a rope from fraying?",
+        "options": [
+            "Eye splice",
+            "Long splice",
+            "Back splice",
+            "Short splice"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The after-most part of a ship is called:",
+        "options": [
+            "Stern",
+            "Bow",
+            "Forecastle",
+            "Stem"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Diameter of towing rope onboard?",
+        "options": [
+            "30mm",
+            "45mm",
+            "40mm",
+            "48mm"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Length of towing rope onboard?",
+        "options": [
+            "130m",
+            "320m",
+            "220m",
+            "240m"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Length of messenger rope onboard?",
+        "options": [
+            "230m",
+            "120m",
+            "125m",
+            "160m"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What does the term ‘port’ means?",
+        "options": [
+            "Right side of the ship",
+            "Front side of the ship",
+            "Left side of the ship",
+            "Bottom side of the ship"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "A ‘fender’ normally use for between",
+        "options": [
+            "Rope and bollard",
+            "Ship and quay",
+            "Anchor and Chain",
+            "Mast and Boom"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "‘Head spring’ prevents the ship moving",
+        "options": [
+            "Forward",
+            "Sideways",
+            "Rolling",
+            "Backward"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "What is the purpose of a ‘stopper’ of anchoring arrangement?",
+        "options": [
+            "Secure mooring lines",
+            "Control the anchor cable",
+            "Prevent cable from running freely",
+            "Measure water depth"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The term ‘abaft the beam’ means",
+        "options": [
+            "Forward of the ship",
+            "Directly abeam",
+            "Behind the beam",
+            "Ahead of the bow"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which seamanship practice increases rope life?",
+        "options": [
+            "Overloading",
+            "Regular inspection and care",
+            "Keeping ropes wet",
+            "Exposing to sunlight"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which knot is best for joining two unequal ropes?",
+        "options": [
+            "Bowline",
+            "Reef knot",
+            "Sheet bend",
+            "Clove hitch"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which knot is unsafe for critical loads?",
+        "options": [
+            "Reef knot",
+            "Sheet bend",
+            "Bowline",
+            "Figure of eight"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "A figure of eight knot mainly used as",
+        "options": [
+            "Stopper knot",
+            "Bending knot",
+            "Hitch",
+            "None of above"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "A towing bridle is mainly used for",
+        "options": [
+            "Distribute towing load evenly",
+            "Increase speed",
+            "Control rolling",
+            "Control rudder movement"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "The primary purpose of anchoring a ship is ?",
+        "options": [
+            "Increase stability",
+            "Keep the ship fixed position",
+            "Improve maneuverability",
+            "Reduced fuel consumption"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The most commonly used anchor on modern naval ships is ?",
+        "options": [
+            "Admiralty anchor",
+            "Mushroom anchor",
+            "Grapnel anchor",
+            "Stockless anchor"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "The term ‘anchor aweigh’ means?",
+        "options": [
+            "Anchor clear of sea bed",
+            "Anchor holding firmly",
+            "Cable secured",
+            "Anchor touching sea bed"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "A ship dragging anchor means?",
+        "options": [
+            "Broken anchor",
+            "Anchor not holding sea bed",
+            "Cable is fouled",
+            "Cable secured"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which term describes the ships movement around the anchor?",
+        "options": [
+            "Rolling",
+            "Pitching",
+            "Yawing",
+            "Swinging"
+        ],
+        "correctIndex": 3
+    }
+]

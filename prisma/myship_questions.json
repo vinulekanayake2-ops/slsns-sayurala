@@ -1,0 +1,502 @@
+[
+    {
+        "text": "What is the pennant number of SLNS SAYURALA?",
+        "options": [
+            "P 621",
+            "P 623",
+            "P 625",
+            "P 630"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "On what date did SLNS SAYURALA join the SLN Fleet?",
+        "options": [
+            "02nd August 2017",
+            "28th July 2017",
+            "20th June 2017",
+            "15th August 2017"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Who is the builder of SLNS SAYURALA?",
+        "options": [
+            "Colombo Dockyard",
+            "Mazagon Dock Shipbuilders",
+            "Goa Shipyard Ltd. India",
+            "Cochin Shipyard"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the overall length of the ship?",
+        "options": [
+            "100.08 m",
+            "105.70 m",
+            "110.50 m",
+            "103.60 m"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the draught of the hull at full load?",
+        "options": [
+            "3.65 m",
+            "5 m",
+            "4.20 m",
+            "3.00 m"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "What is the maximum speed recorded for the vessel?",
+        "options": [
+            "22.5 knots",
+            "25.0 knots",
+            "26.85 knots",
+            "30.15 knots"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the cruising speed range of the ship?",
+        "options": [
+            "10-12 knots",
+            "15-19 knots",
+            "20-22 knots",
+            "12-15 knots"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the endurance of the ship at cruising speed on a single shaft?",
+        "options": [
+            "5000 NM",
+            "6000 NM",
+            "7000 NM",
+            "8000 NM"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What make and type of main engines are installed?",
+        "options": [
+            "Caterpillar 3516",
+            "Wartsila 16V",
+            "MTU 20V 8000 M 71L",
+            "Cummins QSK60"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the maximum power of each main engine?",
+        "options": [
+            "8000 KW",
+            "9100 KW",
+            "10000 KW",
+            "7500 KW"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "At which RPM should the main engines NOT be operated due to sequential turbocharging?",
+        "options": [
+            "650 RPM and 800 RPM",
+            "850 RPM (+30) and 1000 RPM (+30)",
+            "1150 RPM",
+            "750 RPM"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many generators are held onboard?",
+        "options": [
+            "02",
+            "03",
+            "04",
+            "05"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the make of the generators?",
+        "options": [
+            "MTU",
+            "Cummins VTA-28-D(M)",
+            "Caterpillar",
+            "Perkins"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the frequency of the electrical system onboard?",
+        "options": [
+            "60 Hz",
+            "50 Hz",
+            "400 Hz",
+            "100 Hz"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the country of origin for the generators?",
+        "options": [
+            "Germany",
+            "USA",
+            "India",
+            "UK"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "How many 2kg CO2 fire extinguishers are held onboard?",
+        "options": [
+            "10",
+            "25",
+            "40",
+            "19"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the capacity of the fire main and sprinkling pumps?",
+        "options": [
+            "40 m³/h",
+            "60 m³/h",
+            "80 m³/h",
+            "100 m³/h"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which system is used for fire suppression in the engine rooms?",
+        "options": [
+            "Sprinkler system",
+            "FM 200 system",
+            "Sea water flooding",
+            "Halon system"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many portable submersible pumps are available?",
+        "options": [
+            "03",
+            "05",
+            "06",
+            "04"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the capacity of each Air Conditioning Unit?",
+        "options": [
+            "50 TR",
+            "70 TR (246 KW)",
+            "100 TR",
+            "120 TR"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many Fan Coil Units (FCU) are part of the ventilation system?",
+        "options": [
+            "10",
+            "14",
+            "03",
+            "20"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the make of the steering arrangement system?",
+        "options": [
+            "Rolls Royce",
+            "JASTRAM",
+            "Kongsberg",
+            "Wartsila"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the country of origin for the steering system?",
+        "options": [
+            "India",
+            "Germany",
+            "Canada",
+            "Norway"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "How many radars are installed onboard?",
+        "options": [
+            "01",
+            "02",
+            "03",
+            "04"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What are the types of radars available?",
+        "options": [
+            "Two X-bands",
+            "Two S-bands",
+            "X-band (25 KW) and S-band (30 KW)",
+            "C-band and X-band"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the actual maximum land detection range of the radar?",
+        "options": [
+            "20 Nm",
+            "35 Nm",
+            "50 Nm",
+            "75 Nm"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What model of Gyro compass is used?",
+        "options": [
+            "Standard 20",
+            "Standard 22",
+            "MK-37",
+            "Navigat X"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many magnetic compasses are held (including portable)?",
+        "options": [
+            "01",
+            "02",
+            "04",
+            "03"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which DGPS system is used for satellite navigation?",
+        "options": [
+            "Garmin",
+            "SIMRAD MX 612",
+            "Furuno",
+            "Raymarine"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the make of the ECDIS system?",
+        "options": [
+            "SAAB",
+            "Kongsberg",
+            "Transas",
+            "Sperry Marine"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the output of the Cougar VHF communication set?",
+        "options": [
+            "10 W",
+            "20 W",
+            "50 W",
+            "100 W"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many fuel tanks are available onboard?",
+        "options": [
+            "04",
+            "06",
+            "08",
+            "10"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the total fuel capacity?",
+        "options": [
+            "300.500 m³",
+            "398.926 m³",
+            "450.000 m³",
+            "250.750 m³"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the fuel consumption at maximum speed (both engines/2 generators)?",
+        "options": [
+            "2000 ltr/h",
+            "4500 ltr/h",
+            "3000 ltr/h",
+            "900 ltr/h"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the recommended minimum amount of fuel to be carried?",
+        "options": [
+            "200,000 Ltrs",
+            "300,000 Ltrs",
+            "150,000 Ltrs",
+            "398,000 Ltrs"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many fresh water tanks are there?",
+        "options": [
+            "03",
+            "05",
+            "06",
+            "04"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the total fresh water capacity?",
+        "options": [
+            "100,000 m³",
+            "123,082 m³",
+            "150,000 m³",
+            "80,000 m³"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the daily fresh water consumption?",
+        "options": [
+            "10,000 Ltrs",
+            "15,000 Ltrs",
+            "20,000 Ltrs",
+            "25,000 Ltrs"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the pumping rate of the fuel transfer pumps for replenishment?",
+        "options": [
+            "200 Ltrs/Min",
+            "383 Ltrs/Min",
+            "500 Ltrs/Min",
+            "100 Ltrs/Min"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many junior sailors are in the recommended complement?",
+        "options": [
+            "26",
+            "76",
+            "102",
+            "80"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the total recommended complement of the ship?",
+        "options": [
+            "125",
+            "102",
+            "150",
+            "90"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the maximum number of personnel the ship can feed?",
+        "options": [
+            "102",
+            "125",
+            "200",
+            "150"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the main armament of the ship?",
+        "options": [
+            "76 mm gun",
+            "37 mm double barrel Type 61",
+            "40 mm L70",
+            "20 mm Phalanx"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the effective range of the 37 mm double barrel gun?",
+        "options": [
+            "8500 m",
+            "4000 m",
+            "2000 m",
+            "6000 m"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many Norinco 12.7 mm W85 AAMG are held?",
+        "options": [
+            "02",
+            "04",
+            "06",
+            "08"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "How many rounds of 14.5 mm ammunition are held?",
+        "options": [
+            "1000",
+            "2400",
+            "3000",
+            "600"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the weight of each anchor?",
+        "options": [
+            "1000 Kg",
+            "1440 Kg",
+            "2000 Kg",
+            "1795 Kg"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the total length of the anchor cable in shackles?",
+        "options": [
+            "6 Shackles",
+            "8 Shackles",
+            "10 Shackles",
+            "12 Shackles"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the Gross Registered Tonnage (GRT) of SLNS SAYURALA?",
+        "options": [
+            "995.65 Tons",
+            "3318.84 Tons",
+            "2500.00 Tons",
+            "4000.00 Tons"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "How many fin stabilizers are available onboard?",
+        "options": [
+            "01",
+            "02",
+            "04",
+            "None"
+        ],
+        "correctIndex": 1
+    }
+]

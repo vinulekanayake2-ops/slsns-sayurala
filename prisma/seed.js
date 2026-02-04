@@ -140,7 +140,57 @@ async function main() {
         });
     }
 
-    console.log({ admin, navigationModule, marineModule, communicationModule, logisticsModule })
+    // Seed Seamanship
+    const seamanshipQuestions = require('./seamanship_questions.json');
+    const existingSeamanshipModule = await prisma.module.findUnique({ where: { slug: 'seamanship' } });
+    if (existingSeamanshipModule) {
+        await prisma.question.deleteMany({ where: { moduleId: existingSeamanshipModule.id } });
+    }
+    const seamanshipModule = await prisma.module.upsert({
+        where: { slug: 'seamanship' },
+        update: {},
+        create: {
+            name: 'Seamanship',
+            slug: 'seamanship'
+        }
+    });
+    for (const q of seamanshipQuestions) {
+        await prisma.question.create({
+            data: {
+                text: q.text,
+                options: JSON.stringify(q.options),
+                correctIndex: q.correctIndex,
+                moduleId: seamanshipModule.id
+            }
+        });
+    }
+
+    // Seed Myship (General Knowledge)
+    const myshipQuestions = require('./myship_questions.json');
+    const existingMyshipModule = await prisma.module.findUnique({ where: { slug: 'myship' } });
+    if (existingMyshipModule) {
+        await prisma.question.deleteMany({ where: { moduleId: existingMyshipModule.id } });
+    }
+    const myshipModule = await prisma.module.upsert({
+        where: { slug: 'myship' },
+        update: {},
+        create: {
+            name: 'General Knowledge (Myship)',
+            slug: 'myship'
+        }
+    });
+    for (const q of myshipQuestions) {
+        await prisma.question.create({
+            data: {
+                text: q.text,
+                options: JSON.stringify(q.options),
+                correctIndex: q.correctIndex,
+                moduleId: myshipModule.id
+            }
+        });
+    }
+
+    console.log({ admin, navigationModule, marineModule, communicationModule, logisticsModule, seamanshipModule, myshipModule })
 
     console.log({ admin, navigationModule })
     console.log('Seeding completed.')
