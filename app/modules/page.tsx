@@ -20,7 +20,7 @@ const MODULES = [
     { id: "logistics", name: "Logistics", icon: Package },
     { id: "divisional-duties", name: "Divisional Duties", icon: Users },
     { id: "nbcd", name: "NBCD", icon: ShieldAlert }, // NBCD = Nuclear Biological Chemical Defence
-    { id: "myship", name: "Myship", icon: Ship },
+    { id: "myship", name: "General", icon: Ship },
 ];
 
 export default function ModulesPage() {

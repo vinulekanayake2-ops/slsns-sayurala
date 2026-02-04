@@ -175,7 +175,7 @@ async function main() {
         where: { slug: 'myship' },
         update: {},
         create: {
-            name: 'General Knowledge (Myship)',
+            name: 'General Knowledge',
             slug: 'myship'
         }
     });
