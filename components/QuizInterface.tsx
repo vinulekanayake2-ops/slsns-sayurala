@@ -19,8 +19,8 @@ export default function QuizInterface({ moduleId, questions }: QuizInterfaceProp
     const [score, setScore] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
 
-    // Timer Logic (60 minutes)
-    const [timeLeft, setTimeLeft] = useState(60 * 60);
+    // Timer Logic (50 minutes)
+    const [timeLeft, setTimeLeft] = useState(50 * 60);
 
     // Guard Clause
     const currentQuestion = questions?.[currentIndex];
