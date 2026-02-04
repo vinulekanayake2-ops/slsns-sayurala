@@ -68,14 +68,38 @@ export default function AdminDashboard() {
         router.push("/admin/login");
     };
 
-    const handleDeleteUser = async (userId: string, userName: string) => {
-        if (confirm(`Are you sure you want to delete user "${userName}"? This will also delete all their exam results.`)) {
-            const res = await deleteUser(userId);
+    const [deleteConfirmation, setDeleteConfirmation] = useState<{
+        isOpen: boolean;
+        type: "user" | "attempt";
+        id: string;
+        name?: string; // For user name or context
+    } | null>(null);
+
+    const handleDeleteUser = (userId: string, userName: string) => {
+        setDeleteConfirmation({
+            isOpen: true,
+            type: "user",
+            id: userId,
+            name: userName
+        });
+    };
+
+    const handleDeleteAttempt = (attemptId: string) => {
+        setDeleteConfirmation({
+            isOpen: true,
+            type: "attempt",
+            id: attemptId
+        });
+    };
+
+    const confirmDelete = async () => {
+        if (!deleteConfirmation) return;
+
+        if (deleteConfirmation.type === "user") {
+            const res = await deleteUser(deleteConfirmation.id);
             if (res.success) {
-                setUsers(users.filter(u => u.id !== userId));
-                // Also remove from attempts if locally present, though next fetch will clean it
-                setAttempts(attempts.filter(a => a.user !== userName)); // Note: Attempt has user name/officialId, but we might need more robust linking if real-time update needed
-                // Ideally refresh data
+                setUsers(users.filter(u => u.id !== deleteConfirmation.id));
+                setAttempts(attempts.filter(a => a.user !== deleteConfirmation.name));
                 const result = await getAdminDashboardData();
                 if (result.success) {
                     // @ts-ignore
@@ -86,18 +110,15 @@ export default function AdminDashboard() {
             } else {
                 alert("Failed to delete user");
             }
-        }
-    };
-
-    const handleDeleteAttempt = async (attemptId: string) => {
-        if (confirm("Are you sure you want to delete this result?")) {
-            const res = await deleteAttempt(attemptId);
+        } else if (deleteConfirmation.type === "attempt") {
+            const res = await deleteAttempt(deleteConfirmation.id);
             if (res.success) {
-                setAttempts(attempts.filter(a => a.id !== attemptId));
+                setAttempts(attempts.filter(a => a.id !== deleteConfirmation.id));
             } else {
                 alert("Failed to delete result");
             }
         }
+        setDeleteConfirmation(null);
     };
 
     return (
@@ -196,6 +217,52 @@ export default function AdminDashboard() {
                                         <p className="text-steel-500 italic">No assessment history found for this officer.</p>
                                     </div>
                                 )}
+                            </div>
+                        </motion.div>
+                    </div>
+                )}
+
+                {/* Confirmation Modal */}
+                {deleteConfirmation && (
+                    <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+                            onClick={() => setDeleteConfirmation(null)}
+                        />
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95, y: 10 }}
+                            animate={{ opacity: 1, scale: 1, y: 0 }}
+                            exit={{ opacity: 0, scale: 0.95, y: 10 }}
+                            className="relative w-full max-w-md bg-navy-800 border border-red-500/30 rounded-lg shadow-2xl overflow-hidden p-6"
+                        >
+                            <div className="flex flex-col items-center text-center">
+                                <div className="p-3 bg-red-500/10 rounded-full border border-red-500/20 mb-4">
+                                    <CheckCircle className="w-8 h-8 text-red-500" />
+                                </div>
+                                <h3 className="text-xl font-bold text-white mb-2">Confirm Deletion</h3>
+                                <p className="text-steel-400 text-sm mb-6">
+                                    {deleteConfirmation.type === "user"
+                                        ? <>Are you sure you want to delete <span className="text-white font-semibold">{deleteConfirmation.name}</span>? This action cannot be undone and will remove all associated assessment records.</>
+                                        : "Are you sure you want to delete this assessment record? This action cannot be undone."
+                                    }
+                                </p>
+                                <div className="flex gap-3 w-full">
+                                    <button
+                                        onClick={() => setDeleteConfirmation(null)}
+                                        className="flex-1 py-2.5 rounded-md bg-navy-700 hover:bg-navy-600 text-steel-200 text-sm font-semibold transition-colors border border-navy-600"
+                                    >
+                                        Cancel
+                                    </button>
+                                    <button
+                                        onClick={confirmDelete}
+                                        className="flex-1 py-2.5 rounded-md bg-red-600 hover:bg-red-500 text-white text-sm font-semibold transition-colors shadow-lg shadow-red-900/20"
+                                    >
+                                        Delete
+                                    </button>
+                                </div>
                             </div>
                         </motion.div>
                     </div>
