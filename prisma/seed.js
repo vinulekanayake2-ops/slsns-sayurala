@@ -80,7 +80,37 @@ async function main() {
         });
     }
 
-    console.log({ admin, navigationModule, marineModule })
+    // Seed Communication
+    const communicationQuestions = require('./communication_questions.json');
+
+    // Clean up existing questions for Communication module
+    const existingCommModule = await prisma.module.findUnique({ where: { slug: 'communication' } });
+    if (existingCommModule) {
+        await prisma.question.deleteMany({ where: { moduleId: existingCommModule.id } });
+    }
+
+    const communicationModule = await prisma.module.upsert({
+        where: { slug: 'communication' },
+        update: {},
+        create: {
+            name: 'Communication',
+            slug: 'communication'
+        }
+    });
+
+    // Create questions for Communication
+    for (const q of communicationQuestions) {
+        await prisma.question.create({
+            data: {
+                text: q.text,
+                options: JSON.stringify(q.options),
+                correctIndex: q.correctIndex,
+                moduleId: communicationModule.id
+            }
+        });
+    }
+
+    console.log({ admin, navigationModule, marineModule, communicationModule })
 
     console.log({ admin, navigationModule })
     console.log('Seeding completed.')

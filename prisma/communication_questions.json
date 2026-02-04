@@ -1,0 +1,562 @@
+[
+    {
+        "text": "Carrying out physical/page muster of reserved CB’s is the responsibility of ………..",
+        "options": [
+            "CO",
+            "SCO",
+            "CB officer",
+            "BR officer"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "……………………. Contains instructions for the cryptographic used in SLN.",
+        "options": [
+            "SLNCP 1",
+            "SLNCP 02",
+            "SLNCP 4",
+            "SLNCP 05"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "……………….. gun salutes will be accorded to the rank of Rear admiral.",
+        "options": [
+            "13",
+            "15",
+            "17",
+            "19"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "The officer rank of ……………….. and above shall wear his distinguishing flag when he is travelling in the official vehical.",
+        "options": [
+            "Captain",
+            "Rear admiral",
+            "Commodore",
+            "Vice admiral"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "There are ……………. Flags and pennants carried onboard a war ship",
+        "options": [
+            "40",
+            "59",
+            "65",
+            "69"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "When ordered to enter dangerous water, Top Secret, Secret and Confidential publications which are not essential are to be deposited with ……………………..",
+        "options": [
+            "Flag officer",
+            "Naval officer incharge",
+            "Both 1 & 2",
+            "None of above"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Original keys of CB Chest are kept with …………….",
+        "options": [
+            "CO",
+            "CB officer",
+            "SCO",
+            "BR Officer"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "……………….. is a name used for administrative convenience for reference to a particular matter where security cover is not used.",
+        "options": [
+            "Code word",
+            "Nick name",
+            "Unclassified",
+            "None of above"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Charge documents are to be taken on the personal charge of ………….",
+        "options": [
+            "CO",
+            "SCO",
+            "CBO",
+            "BR officer"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Daily muster of CBs issued to com department is responsibility of",
+        "options": [
+            "CBO",
+            "OOD",
+            "SCO",
+            "CO"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Loss of any cryptographic publication or any page containing keying materials, then the precedence is to be",
+        "options": [
+            "Flash",
+            "Immediate",
+            "Priority",
+            "Routine"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Meaning of prosing HM HM HM (3 times)",
+        "options": [
+            "Error",
+            "Repeat",
+            "Emergency silence",
+            "Do not answer"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Space between character is ……………….. units.",
+        "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Double flash procedure is used when a …………. not available",
+        "options": [
+            "Recorder",
+            "Flashing light",
+            "Sender",
+            "CO"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Standard semaphore apparatus consist of two hand flags about ……… centimeter square design flag Oscar attached to staffs about ………. Centimeters long.",
+        "options": [
+            "30 & 40",
+            "40 & 50",
+            "40 & 55",
+            "45 & 60"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "…………………..used as a preliminary call by semaphore to establish communication.",
+        "options": [
+            "Direction sign",
+            "Attention sign",
+            "Answering sign",
+            "Separative sign"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Most reliable means of communication is ……………………",
+        "options": [
+            "Wire circuit",
+            "Messenger",
+            "Visual communication",
+            "Telephone"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Most unreliable means of communication is ……………….",
+        "options": [
+            "Wire circuit",
+            "Messenger",
+            "Visual communication",
+            "Telephone"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Time duration of Immediate message is …………………….",
+        "options": [
+            "5 min",
+            "15 min",
+            "30 min",
+            "45 min"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Automatic security classification of Helex is ……………….",
+        "options": [
+            "Confidential",
+            "Secret",
+            "Top secret",
+            "Restricted"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "SLNCP 05 contains …………………..instructions",
+        "options": [
+            "Cryptographic",
+            "Com plan",
+            "General",
+            "Communication"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Weather signals bearing DTG more than ……………….. Are to be automatically destroyed.",
+        "options": [
+            "24 hrs",
+            "48 hrs",
+            "7 days",
+            "14 days"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "What is the international meaning of flag Echo",
+        "options": [
+            "I require a pilot",
+            "I am disable, communicate with me",
+            "Im altering my course to starboard",
+            "Keep clear of me, im maneuvering with difificulty"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the format signal use for demand stores items?",
+        "options": [
+            "INDRAFT",
+            "INCREP",
+            "STORDEM",
+            "LOGREQ"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the format signal used for selection of course?",
+        "options": [
+            "OFFREP",
+            "SPORTSIG",
+            "SELFCO",
+            "HOLREQ"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is NAVEAST CHOP lines?",
+        "options": [
+            "Chalai – Devils point",
+            "Neelawani- Chalai",
+            "Arippu – Devils point",
+            "Kumana - Nelawani"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Where is SIGCEN (South) situated?",
+        "options": [
+            "SLNS Nipuna",
+            "SLNS Ruhuna",
+            "SLNS Kawanthissa",
+            "SLNS Dakshina"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Where is SLN comcentre situated?",
+        "options": [
+            "DHQC",
+            "SLNS Gamunu",
+            "DASLN",
+            "ND CBO"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "What is the time duration of routine message?",
+        "options": [
+            "30 min",
+            "45 min",
+            "24 hrs",
+            "1.5 hrs"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "A message is divided into ………….. Parts",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "……………ensign worn when retired naval officer is command merchant ship.",
+        "options": [
+            "Naval ensign",
+            "Red ensign",
+            "Blue ensign",
+            "White ensign"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "When man is overboard Flag ………………..will Hoist at the mast.",
+        "options": [
+            "A",
+            "O",
+            "K",
+            "P"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The first word of the text for signal made for the incident report is ………………",
+        "options": [
+            "OFFREP",
+            "INCREP",
+            "SEAOP",
+            "VEHIDENT"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the call sign of SLNS SAYURALA ?",
+        "options": [
+            "Anjalee",
+            "Lakshika",
+            "Namal",
+            "Sagarika"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "What is the Pennant NO of SLNS SAYURALA ?",
+        "options": [
+            "P 621",
+            "P 622",
+            "P 623",
+            "P 624"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which ‘Motorola VHF base radio model’ is installed on board?",
+        "options": [
+            "GP 338",
+            "APX 2500",
+            "XTL 5000",
+            "RT 7000"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which ‘HF communication set’ is installed on board?",
+        "options": [
+            "Motorola XTL 5000",
+            "RT 7000",
+            "GP 338",
+            "APX 2500"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What type of communication equipment is the ‘Motorola APX 2500’?",
+        "options": [
+            "VHF Portable",
+            "VHF Base Station",
+            "UHF Communication Set",
+            "Satellite Telephone"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which device is used for ‘satellite communication’ on board?",
+        "options": [
+            "Inmarsat C",
+            "THURAYA SAT Phone",
+            "Thrane IP Handset 11 3672A",
+            "Fleet Broad Band SAT Phone"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "“Suit of Colours” refers to:",
+        "options": [
+            "Change of battle flag",
+            "Hoisting jack, naval ensign & commissioning pennant at colours time",
+            "Dressing overall of ship",
+            "Hoisting courtesy flags"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The ‘Thrane IP Handset 11 3672A’ is primarily used for:",
+        "options": [
+            "HF communication",
+            "UHF tactical communication",
+            "Satellite telephone communication",
+            "VHF portable communication"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What are the principles of communication?",
+        "options": [
+            "Speed, secrecy, safety",
+            "Reliability, Security, Speed",
+            "Accuracy, secrecy, economy",
+            "Control, command, contact"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "What is the precedence code letter for “flash”?",
+        "options": [
+            "I",
+            "F",
+            "O",
+            "Z"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "What is the format signal used to request move by air?",
+        "options": [
+            "SKY MOVE",
+            "AIR REQ",
+            "AIR MOVE",
+            "AIR TRANS"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What is the format signal used to report non-SL fishing craft?",
+        "options": [
+            "ILLEGAL",
+            "FISHING",
+            "POACHERS",
+            "INTRUDER"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Channel 16 operation in Cougar set is –",
+        "options": [
+            "3 CLR",
+            "4 CLR",
+            "5 CLR",
+            "6 CLR"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Primary contact channel of HF set is –",
+        "options": [
+            "CH 72 Upper",
+            "CH 71 Lower",
+            "CH 72 Lower side band (CGL)",
+            "CH 70"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which is the enemy contact?",
+        "options": [
+            "Secret",
+            "Confidential",
+            "Restricted",
+            "Top Secret"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "What are accountable publications?",
+        "options": [
+            "All books in library",
+            "Only restricted books",
+            "All CBs, SPs, registered & classified Confidential and above",
+            "Only BRs"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which are cryptographic publications?",
+        "options": [
+            "ACP, ATP",
+            "Helex, Lanex, Sinhale",
+            "BR, ANSB",
+            "SLNCP-04, SLNCP-03"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Emergency Destruction means",
+        "options": [
+            "Burning waste paper",
+            "Destroying all publications monthly",
+            "Immediate destruction of classified material on declaration of hostilities",
+            "Normal shredding procedure"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "What does IAW stand for?",
+        "options": [
+            "In all ways",
+            "In accordance with",
+            "Instruction at will",
+            "Internal action work"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "SLNCP- 4 relates to:",
+        "options": [
+            "Crypto",
+            "Ceremonial",
+            "Training",
+            "Format"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Which is NOT a signal precedence?",
+        "options": [
+            "Flash",
+            "Immediate",
+            "Priority",
+            "Emergency"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "Which flag does NOT have a Naval meaning?",
+        "options": [
+            "Flag A",
+            "Flag B",
+            "Flag C",
+            "Flag H"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which flags are hoisted at Colours time?",
+        "options": [
+            "Naval ensign only",
+            "Jack only",
+            "Jack, Naval Ensign & Commissioning Pennant",
+            "Naval ensign & Flag U"
+        ],
+        "correctIndex": 2
+    }
+]
