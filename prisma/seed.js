@@ -190,7 +190,32 @@ async function main() {
         });
     }
 
-    console.log({ admin, navigationModule, marineModule, communicationModule, logisticsModule, seamanshipModule, myshipModule })
+    // Seed NBCD
+    const nbcdQuestions = require('./nbcd_questions.json');
+    const existingNbcdModule = await prisma.module.findUnique({ where: { slug: 'nbcd' } });
+    if (existingNbcdModule) {
+        await prisma.question.deleteMany({ where: { moduleId: existingNbcdModule.id } });
+    }
+    const nbcdModule = await prisma.module.upsert({
+        where: { slug: 'nbcd' },
+        update: {},
+        create: {
+            name: 'NBCD',
+            slug: 'nbcd'
+        }
+    });
+    for (const q of nbcdQuestions) {
+        await prisma.question.create({
+            data: {
+                text: q.text,
+                options: JSON.stringify(q.options),
+                correctIndex: q.correctIndex,
+                moduleId: nbcdModule.id
+            }
+        });
+    }
+
+    console.log({ admin, navigationModule, marineModule, communicationModule, logisticsModule, seamanshipModule, myshipModule, nbcdModule })
 
     console.log({ admin, navigationModule })
     console.log('Seeding completed.')

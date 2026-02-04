@@ -1,0 +1,502 @@
+[
+    {
+        "text": "Damage control onboard ship mainly deals with:",
+        "options": [
+            "Navigation safety",
+            "Stability and watertight integrity",
+            "Cargo handling",
+            "Engine maintenance"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The main objective of damage control is to:",
+        "options": [
+            "Improve speed",
+            "Prevent flooding and maintain stability",
+            "Increase cargo capacity",
+            "Reduce fuel consumption"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which compartment limits flooding in a ship?",
+        "options": [
+            "Engine room",
+            "Cargo hold",
+            "Watertight compartment",
+            "Accommodation"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Watertight doors should normally be kept:",
+        "options": [
+            "Open at sea",
+            "Closed at sea",
+            "Locked in port",
+            "Open in bad weather"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "A collision mat is used to:",
+        "options": [
+            "Fight fire",
+            "Cover hull damage",
+            "Lift heavy loads",
+            "Seal pipes"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which pump is commonly used for dewatering?",
+        "options": [
+            "Gear pump",
+            "Bilge pump",
+            "Fuel pump",
+            "Lubricating pump"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Progressive flooding means:",
+        "options": [
+            "Sudden flooding",
+            "Controlled flooding",
+            "Flooding spreads from one space to another",
+            "No flooding"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Shoring is used to:",
+        "options": [
+            "Support damaged structure",
+            "Remove water",
+            "Extinguish fire",
+            "Seal pipelines"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "The purpose of plugging is to:",
+        "options": [
+            "Increase pressure",
+            "Stop leakage",
+            "Improve ventilation",
+            "Reduce temperature"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Which material is commonly used for emergency plugging?",
+        "options": [
+            "Steel",
+            "Rubber",
+            "Wood",
+            "Glass"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Fire requires which three elements?",
+        "options": [
+            "Fuel, heat, oxygen",
+            "Fuel, water, air",
+            "Heat, smoke, air",
+            "Fuel, gas, pressure"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Removing any one element will:",
+        "options": [
+            "Increase fire",
+            "Spread fire",
+            "Extinguish fire",
+            "Control smoke"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Class A fires involve:",
+        "options": [
+            "Electrical equipment",
+            "Flammable liquids",
+            "Solid combustibles",
+            "Gases"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Class B fires involve:",
+        "options": [
+            "Wood and paper",
+            "Electrical fires",
+            "Flammable liquids",
+            "Metals"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Class C fires involve:",
+        "options": [
+            "Electrical equipment",
+            "Gases",
+            "Metals",
+            "Cooking oil"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Which extinguisher is suitable for electrical fires?",
+        "options": [
+            "Water",
+            "Foam",
+            "CO₂",
+            "Sand"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Water is NOT suitable for:",
+        "options": [
+            "Wood fires",
+            "Paper fires",
+            "Oil fires",
+            "Textile fires"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Foam extinguishes fire mainly by:",
+        "options": [
+            "Cooling",
+            "Smothering",
+            "Starvation",
+            "Explosion"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "CO₂ extinguishes fire by:",
+        "options": [
+            "Cooling only",
+            "Removing fuel",
+            "Displacing oxygen",
+            "Increasing pressure"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Dry powder is effective on:",
+        "options": [
+            "Class A only",
+            "Class B and C",
+            "Class D only",
+            "Electrical only"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Fire main system supplies:",
+        "options": [
+            "Fuel",
+            "Sea water",
+            "Fresh water",
+            "Oil"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Fire hoses are usually made of:",
+        "options": [
+            "Rubber",
+            "Canvas",
+            "Leather",
+            "Plastic"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The purpose of fire dampers is to:",
+        "options": [
+            "Increase air flow",
+            "Control ventilation",
+            "Stop spread of fire and smoke",
+            "Cool compartments"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Fire detectors are installed to:",
+        "options": [
+            "Extinguish fire",
+            "Detect fire early",
+            "Cool spaces",
+            "Reduce smoke"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Smoke detectors respond to:",
+        "options": [
+            "Heat only",
+            "Flame only",
+            "Smoke particles",
+            "Pressure"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Heat detectors operate based on:",
+        "options": [
+            "Smoke density",
+            "Gas concentration",
+            "Temperature rise",
+            "Flame color"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Fire patrol duty is carried out to:",
+        "options": [
+            "Repair equipment",
+            "Detect fire hazards",
+            "Paint ship",
+            "Load cargo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Boundary cooling is done to:",
+        "options": [
+            "Extinguish fire directly",
+            "Protect adjacent spaces",
+            "Reduce smoke",
+            "Increase ventilation"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Fire suits protect against:",
+        "options": [
+            "Smoke only",
+            "Heat and flames",
+            "Water only",
+            "Chemicals only"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Breathing apparatus supplies:",
+        "options": [
+            "Oxygen",
+            "Fresh air",
+            "Compressed air",
+            "Nitrogen"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Low visibility in fire is mainly due to:",
+        "options": [
+            "Heat",
+            "Flames",
+            "Smoke",
+            "Noise"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "A fire control plan shows:",
+        "options": [
+            "Ship routes",
+            "Firefighting equipment locations",
+            "Cargo stowage",
+            "Stability data"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Fire drills onboard are carried out to:",
+        "options": [
+            "Meet regulations only",
+            "Train crew for emergencies",
+            "Reduce fuel usage",
+            "Improve speed"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Oil soaked rags can cause:",
+        "options": [
+            "Explosion",
+            "Corrosion",
+            "Spontaneous combustion",
+            "Flooding"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Which system floods space with CO₂?",
+        "options": [
+            "Sprinkler system",
+            "Fixed CO₂ system",
+            "Foam system",
+            "Water mist system"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Before releasing CO₂, space should be:",
+        "options": [
+            "Well ventilated",
+            "Fully evacuated",
+            "Cooled with water",
+            "Pressurized"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Fire in engine room is mostly caused by:",
+        "options": [
+            "Water leakage",
+            "Oil leakage on hot surfaces",
+            "Cold air",
+            "Rust"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Flash point indicates:",
+        "options": [
+            "Fire temperature",
+            "Lowest temperature of vapor ignition",
+            "Boiling point",
+            "Auto ignition temperature"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Fixed fire detection systems are required by:",
+        "options": [
+            "SOLAS",
+            "MARPOL",
+            "ISM Code",
+            "COLREG"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Portable extinguishers should be:",
+        "options": [
+            "Locked",
+            "Hidden",
+            "Easily accessible",
+            "Kept in stores only"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Fire triangle does NOT include:",
+        "options": [
+            "Fuel",
+            "Heat",
+            "Oxygen",
+            "Water"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "text": "The safest approach to fire is:",
+        "options": [
+            "Against wind",
+            "From upwind",
+            "From downwind",
+            "From any direction"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Emergency escape breathing device (EEBD) is used for:",
+        "options": [
+            "Fire fighting",
+            "Long-term breathing",
+            "Escape from smoke-filled spaces",
+            "Diving"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Water mist systems are effective because they:",
+        "options": [
+            "Increase oxygen",
+            "Cool and smother fire",
+            "Spread fire",
+            "Increase pressure"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "The main hazard of CO₂ is:",
+        "options": [
+            "Fire spread",
+            "Toxic smoke",
+            "Oxygen deficiency",
+            "High temperature"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "Structural fire protection aims to:",
+        "options": [
+            "Increase strength",
+            "Delay fire spread",
+            "Improve appearance",
+            "Reduce weight"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Fire zones are separated by:",
+        "options": [
+            "Glass doors",
+            "Fire-resistant bulkheads",
+            "Wooden panels",
+            "Curtains"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "text": "Muster list shows:",
+        "options": [
+            "Crew duties during emergency",
+            "Cargo details",
+            "Navigation plan",
+            "Engine parameters"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "text": "Damage control party is responsible for:",
+        "options": [
+            "Navigation",
+            "Machinery repair",
+            "Fire fighting and flooding control",
+            "Catering"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "text": "The first action on discovering fire is to:",
+        "options": [
+            "Fight alone",
+            "Raise alarm",
+            "Run away",
+            "Shut down engines"
+        ],
+        "correctIndex": 1
+    }
+]
