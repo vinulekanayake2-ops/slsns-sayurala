@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Users, BarChart2, Activity, Search, LogOut, Clock, X, FileText, CheckCircle } from "lucide-react";
-import { getAdminDashboardData } from "@/app/actions";
+import { Users, BarChart2, Activity, Search, LogOut, Clock, X, FileText, CheckCircle, Trash2 } from "lucide-react";
+import { getAdminDashboardData, deleteUser, deleteAttempt } from "@/app/actions";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
@@ -66,6 +66,38 @@ export default function AdminDashboard() {
 
     const handleLogout = () => {
         router.push("/admin/login");
+    };
+
+    const handleDeleteUser = async (userId: string, userName: string) => {
+        if (confirm(`Are you sure you want to delete user "${userName}"? This will also delete all their exam results.`)) {
+            const res = await deleteUser(userId);
+            if (res.success) {
+                setUsers(users.filter(u => u.id !== userId));
+                // Also remove from attempts if locally present, though next fetch will clean it
+                setAttempts(attempts.filter(a => a.user !== userName)); // Note: Attempt has user name/officialId, but we might need more robust linking if real-time update needed
+                // Ideally refresh data
+                const result = await getAdminDashboardData();
+                if (result.success) {
+                    // @ts-ignore
+                    setUsers(result.users);
+                    // @ts-ignore
+                    setAttempts(result.attempts);
+                }
+            } else {
+                alert("Failed to delete user");
+            }
+        }
+    };
+
+    const handleDeleteAttempt = async (attemptId: string) => {
+        if (confirm("Are you sure you want to delete this result?")) {
+            const res = await deleteAttempt(attemptId);
+            if (res.success) {
+                setAttempts(attempts.filter(a => a.id !== attemptId));
+            } else {
+                alert("Failed to delete result");
+            }
+        }
     };
 
     return (
@@ -368,12 +400,19 @@ export default function AdminDashboard() {
                                                             {user.status}
                                                         </span>
                                                     </td>
-                                                    <td className="px-6 py-4 text-right">
+                                                    <td className="px-6 py-4 text-right flex items-center justify-end gap-2">
                                                         <button
                                                             onClick={() => setSelectedUser(user)}
                                                             className="text-[10px] font-bold text-gold-500/80 hover:text-gold-400 uppercase tracking-wider border border-gold-600/30 hover:border-gold-500 px-3 py-1 rounded-sm transition-all"
                                                         >
                                                             Details
+                                                        </button>
+                                                        <button
+                                                            onClick={() => handleDeleteUser(user.id, user.name)}
+                                                            className="p-1 text-red-400 hover:text-red-300 hover:bg-red-500/10 rounded transition-colors"
+                                                            title="Delete User"
+                                                        >
+                                                            <Trash2 className="w-4 h-4" />
                                                         </button>
                                                     </td>
                                                 </tr>
@@ -394,12 +433,13 @@ export default function AdminDashboard() {
                                             <th className="px-6 py-4">Module</th>
                                             <th className="px-6 py-4 text-center">Score</th>
                                             <th className="px-6 py-4 text-right">Result</th>
+                                            <th className="px-6 py-4 text-center">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody className="divide-y divide-navy-700/30">
                                         {attempts.length === 0 ? (
                                             <tr>
-                                                <td colSpan={5} className="px-6 py-8 text-center text-steel-500 text-sm">
+                                                <td colSpan={6} className="px-6 py-8 text-center text-steel-500 text-sm">
                                                     No assessment history available.
                                                 </td>
                                             </tr>
@@ -418,6 +458,15 @@ export default function AdminDashboard() {
                                                             }`}>
                                                             {Math.round((attempt.score / attempt.total) * 100)}%
                                                         </span>
+                                                    </td>
+                                                    <td className="px-6 py-4 text-center">
+                                                        <button
+                                                            onClick={() => handleDeleteAttempt(attempt.id)}
+                                                            className="p-1 text-red-400 hover:text-red-300 hover:bg-red-500/10 rounded transition-colors"
+                                                            title="Delete Result"
+                                                        >
+                                                            <Trash2 className="w-4 h-4" />
+                                                        </button>
                                                     </td>
                                                 </tr>
                                             ))

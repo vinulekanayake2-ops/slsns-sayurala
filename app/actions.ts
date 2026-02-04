@@ -175,3 +175,38 @@ export async function loginAdmin() {
     cookieStore.set('userId', 'ADMIN-SESSION-TOKEN', { secure: false, httpOnly: true, path: '/' });
     return { success: true };
 }
+
+export async function deleteUser(userId: string) {
+    try {
+        // Delete related records first (simulating Cascade)
+        await prisma.activeSession.deleteMany({
+            where: { userId }
+        });
+
+        await prisma.quizAttempt.deleteMany({
+            where: { userId }
+        });
+
+        // Delete the user
+        await prisma.user.delete({
+            where: { id: userId }
+        });
+
+        return { success: true };
+    } catch (error) {
+        console.error("Delete User Error:", error);
+        return { success: false, error: "Failed to delete user" };
+    }
+}
+
+export async function deleteAttempt(attemptId: string) {
+    try {
+        await prisma.quizAttempt.delete({
+            where: { id: attemptId }
+        });
+        return { success: true };
+    } catch (error) {
+        console.error("Delete Attempt Error:", error);
+        return { success: false, error: "Failed to delete result" };
+    }
+}
